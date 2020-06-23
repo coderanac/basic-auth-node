@@ -1,0 +1,29 @@
+{
+  "name": "basic-auth-node",
+  "version": "1.0.0",
+  "description": "Basic auth usando Node.JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./src/server.js",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderanac/basic-auth-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderanac/basic-auth-node/issues"
+  },
+  "homepage": "https://github.com/coderanac/basic-auth-node#readme",
+  "dependencies": {
+    "mkdirp": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "rollup": "^2.18.0",
+    "rollup-plugin-terser": "^6.1.0"
+  }
+}
